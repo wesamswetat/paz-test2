@@ -1,0 +1,201 @@
+body{
+    direction: rtl;
+    min-width: 320px;
+}
+
+.conenar{
+    width: 100%;
+    margin: auto;
+}
+
+ul{margin: 0;padding: 0}
+/* ############################ SRART HEADER #############*/
+
+header {
+    background-image: none ;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+header nav{overflow: hidden;position: relative}
+
+header nav > div{display: none;}
+
+header nav > img {display: none;}
+
+header nav ul{
+    overflow: hidden;
+    width: 100%;
+    margin-top: 5px;
+}
+
+header nav ul li {
+    list-style: none;
+    display: block;
+    float: none;
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(0,0,0,0.4) ;
+    border-bottom: 1px solid #fff;
+}
+
+header nav ul li + li{
+    border-right: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 0;
+    font-size: 1.2em;
+}
+
+
+/* ############################ SRART abut section #############*/
+
+.abut-section , .adv-section{
+    overflow: hidden;
+}
+
+.abut-section > div {
+    float: none;
+    position: relative;
+    height: 354px;
+    width: 320px;
+    margin:5px auto;
+}
+
+.abut-section > div > img , .adv-section > div > img{
+    position: absolute;
+}
+
+.abut-section > div > div{
+    position: absolute;
+    bottom: 3px;
+    right: 6px;
+    height:97px;
+    width: 248px;
+    margin: 0;
+    padding: 5px;
+    color: #fff;
+    background-image: url("../img/hp_tab_text_bg.png");
+    background-repeat: no-repeat;
+    background-size: 258px;
+}
+
+.abut-section > div > div p:nth-child(1){
+    margin: 0;
+}
+
+.abut-section > div > div p:nth-child(2){
+    margin: 0;
+    font-size: 0.8em;
+    width: 82%;
+}
+
+.abut-section > div > div > div{
+    float: left;
+    padding-bottom: 2px;
+}
+
+.abut-section > div > div > div a{
+    color: #fff;
+    font-size: 0.8em;
+}
+
+/* ############################ SRART adv section #############*/
+
+.adv-section{
+    margin: 0;
+
+}
+
+.adv-section > div{
+    float: none;
+    position: relative;
+    height: 250px;
+    width: 320px;
+    margin:5px auto;
+}
+
+.adv-section > div > img:first-child{
+    width: 292px;
+    height: 250px;
+}
+
+.adv-section > div p + img{
+    left: 47px;
+    top: 65px;
+}
+
+.adv-section > div > p{
+    position: absolute;
+    right: 27px;
+}
+
+.adv-section > div > ul{
+    direction: ltr;
+    position: absolute;
+    right: 55px;
+    top: 100px;
+    list-style-image: url("../img/read_more_yellow.png");
+}
+
+.adv-section > div > ul li a{
+    color: black;
+}
+
+.adv-section > div > div {
+    position: absolute;
+    left: 38px;
+    bottom: 5px;
+}
+
+/* ############################ SRART FOOTER #############*/
+
+footer {
+    background-image: none ;
+    background-repeat: no-repeat;
+    position: static;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.4);
+}
+
+footer > div > img{
+    float: none;
+    margin: 15px auto;
+    display: block;
+}
+
+footer > div > ul{
+    float: none;
+}
+
+footer > div > ul li{
+    float: none;
+    list-style: none;
+    margin: 0;
+    padding:5px 0;
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+
+footer > div > ul li + li{
+    border-right: none;
+}
+
+footer > div > ul li a{
+    padding: 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #00f;
+}

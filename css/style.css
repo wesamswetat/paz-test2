@@ -1,0 +1,251 @@
+body{
+    direction: rtl;
+}
+
+.conenar{
+    width: 970px;
+    margin: auto;
+}
+
+ul{margin: 0;padding: 0}
+/* ############################ SRART HEADER #############*/
+
+header {
+    background-image: url("../img/header_bg.png") ;
+    background-repeat: repeat-x;
+    overflow: hidden;
+}
+
+header nav{overflow: hidden;position: relative}
+
+header nav > div{
+    position: absolute;
+    left: 25px;
+    top: 15px;
+}
+
+header nav > div > a{
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav > div > input{
+    width: 121px;
+    height: 11px;
+    position: absolute;
+    left: 22px;
+    top: 3px;
+    border-style: none;
+    font-size: 0.8em;
+}
+
+header nav > div img:nth-child(2){
+    margin-left: -4px;
+}
+
+header nav > img {
+    float: right;
+    margin-top: 35px;
+}
+
+header nav ul{
+    overflow: hidden;
+    width: 820px;
+    margin-top: 65px;
+}
+
+header nav ul li {
+    float: right;
+    list-style: none;
+}
+
+header nav ul li + li{
+    border-right: 1px solid #fff;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 11px;
+    font-size: 1.2em;
+}
+
+
+/* ############################ SRART abut section #############*/
+
+.abut-section , .adv-section{
+    overflow: hidden;
+}
+
+.abut-section > div {
+    float: left;
+    position: relative;
+    height: 354px;
+    width: 320px;
+}
+
+.abut-section > div > img , .adv-section > div > img{
+    position: absolute;
+}
+
+.abut-section > div > div{
+    position: absolute;
+    bottom: 3px;
+    right: 6px;
+    height:97px;
+    width: 248px;
+    margin: 0;
+    padding: 5px;
+    color: #fff;
+    background-image: url("../img/hp_tab_text_bg.png");
+    background-repeat: no-repeat;
+    background-size: 258px;
+}
+
+.abut-section > div > div p:nth-child(1){
+    margin: 0;
+}
+
+.abut-section > div > div p:nth-child(2){
+    margin: 0;
+    font-size: 0.8em;
+    width: 82%;
+}
+
+.abut-section > div > div > div{
+    float: left;
+    padding-bottom: 2px;
+}
+
+.abut-section > div > div > div a{
+    color: #fff;
+    font-size: 0.8em;
+}
+
+/* ############################ SRART adv section #############*/
+
+.adv-section{
+    margin: 30px auto 60px auto;
+
+}
+
+.adv-section > div{
+    float: left;
+    position: relative;
+    height: 250px;
+    width: 320px;
+}
+
+.adv-section > div > img:first-child{
+    width: 292px;
+    height: 250px;
+}
+
+.adv-section > div p + img{
+    left: 47px;
+    top: 65px;
+}
+
+.adv-section > div > p{
+    position: absolute;
+    right: 27px;
+}
+
+.adv-section > div > ul{
+    direction: ltr;
+    position: absolute;
+    right: 55px;
+    top: 100px;
+    list-style-image: url("../img/read_more_yellow.png");
+}
+
+.adv-section > div > ul li a{
+    color: black;
+}
+
+.adv-section > div > div {
+    position: absolute;
+    left: 38px;
+    bottom: 5px;
+}
+
+/* ############################ SRART FOOTER #############*/
+
+footer {
+    background-image: url("../img/footer_bg.png") ;
+    background-repeat: repeat-x;
+    height:38px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: block;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+}
+
+footer > div > img{
+    float: left;
+    margin-top: 15px;
+}
+
+footer > div > ul{
+    float: right;
+}
+
+footer > div > ul li{
+    float: right;
+    list-style: none;
+    margin: 10px 5px 0 5px;
+    padding-right: 5px;
+}
+
+footer > div > ul li + li{
+    border-right: 1px solid #fff;
+}
+
+footer > div > ul li a{
+    padding: 0 2px;
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #00f;
+}
+
+
+/*####################################################################################################*/
+/*####################################################################################################*/
+/*###########################          CONTACT PAGE          #########################################*/
+/*####################################################################################################*/
+/*####################################################################################################*/
+
+
+.conect  .left-side{
+    width: 150px;
+    background-image: url("../img/menu_dropdown_bg.png");
+    background-repeat: repeat-x;
+    float: right;
+}
+
+.conect  .middle-side{
+    width: 500px;
+    float: right;
+}
+
+.conect  .middle-side form{
+    background-image: url("../img/contact_form_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+}
+
+.conect .right-side{
+    width: 300px;
+    float: left;
+}
